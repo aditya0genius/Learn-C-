@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/workspaces/Learn-C-",
+    "files.associations": {
+        "iostream": "cpp"
+    }
+}
