@@ -8,10 +8,15 @@ int main() {
     cin>>row;
     cout<<"Enter number of Columns";
     cin>>column;
-    for(int i=0;i<row;i++) {
-        for(int j=0;j<column;j++) 
+    for(int i=1;i<=row;i++) {
+        for(int j=1;j<=column;j++) 
         {
-            cout<<"*";
+            if(i==1||j==1||i==row||j==column){
+                cout<<"*";
+            }
+            else{
+                cout<<" ";
+            }
         }
         cout<<"\n";
     }
