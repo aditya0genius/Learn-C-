@@ -19,7 +19,19 @@ int main()
                 }  
             }
             else{
-                cout<<"\n*";
+                cout<<"\n";
+                for(int j=0;j<no_of_lines;j++)
+                {
+
+                    if(j==mid){
+                        cout<<"*";
+                    }
+                    else{
+                        cout<<" ";
+                    }
+                 
+                } 
+                
             }
 
         }
